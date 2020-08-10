@@ -1,0 +1,54 @@
+img {
+    margin: 0.8rem;
+    height: 25rem;
+    width: 25rem;
+}
+
+h1 {
+    font-size: 3.6rem;
+    color: var(--main-red);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: black;
+}
+
+#main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+
+.red-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.2rem;
+    
+    height: 3rem;
+    width: 80%;
+    
+    background-color: var(--main-red);
+    font-size: 1.2rem;
+
+    border: 1px white solid;
+    border-radius: 0.8rem;
+    
+}
+
+.red-button a {
+    color: white;
+    padding: 1.4rem 0;
+}

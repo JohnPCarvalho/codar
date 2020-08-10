@@ -1,0 +1,54 @@
+:root {
+    --main-red: #D6000D
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body,
+input,
+button {
+    font-weight: 100;
+    font-family: Roboto;
+    font-size: 1.6rem;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: var(--main-red);
+}
+
+#container {
+    margin: 0 auto;
+    width: 90vw;
+    max-width: 700px;
+
+    flex-direction: column;
+}
+
+#logo-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.4rem;
+}
+
+
+
+@media (min-width: 700px) {
+    :root {
+        font-size: 62.5%;
+    }
+}
