@@ -34,8 +34,8 @@ button {
     margin: 0 auto;
     width: 90vw;
     max-width: 700px;
-
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #logo-name {
