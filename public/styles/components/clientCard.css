@@ -22,7 +22,7 @@
     background-color: var(--main-red);
     display: flex;
     margin: auto 1rem;
-    width: 30%;
+    width: 5rem;
     height: 5rem;
     border-radius: 50%;
 }
