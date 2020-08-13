@@ -1,0 +1,29 @@
+#container #description {
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#description ul{
+    justify-content: center;
+    list-style-type: none;
+    margin: 1rem;
+}
+
+#description ul li {
+    font-size: 1.2rem;
+    color: black;
+    padding-left: 0.8rem;
+}
+
+#description ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }

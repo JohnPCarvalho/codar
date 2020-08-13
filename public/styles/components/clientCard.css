@@ -1,0 +1,55 @@
+.client-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    background-color: #DBDBDB;
+    color: black;
+    margin: 2rem 0;
+    border-radius: 0.8rem;
+}
+
+.client-card .testimony-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 1rem;
+}
+
+.client-card .client{
+    background-color: var(--main-red);
+    display: flex;
+    margin: auto 1rem;
+    width: 30%;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.client-card .card-footer {
+    width: 100%;
+    padding: 0.6rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.testimony {
+    width: 70%;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 400;
+}
+
+.client-name {
+    font-size: 2rem;
+}
+
+.client-company {
+    font-size: 1.1rem;
+    font-weight: 700;
+}

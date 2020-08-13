@@ -1,0 +1,30 @@
+#contato {
+    width: 100%;
+}
+
+#contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+#contato form label {
+    color: black;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 0.4rem;
+}
+
+#contato form #celId {
+    background-color: #DBDBDB;
+    border-radius: 0.8rem;
+    padding: 1rem 2rem;
+    width: 80%;
+}
+
+#contato form button {
+    width: 80%;
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    border-radius: 0.8rem;
+}
